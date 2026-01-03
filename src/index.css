@@ -117,7 +117,7 @@
 .contact-button {
   z-index: 0;
   overflow: hidden;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
   /* transition: text 0.6s ease-in-out; */
 }
 
@@ -141,7 +141,7 @@
   top: -2.5%;
   transform: scaleX(0);
   transform-origin: right;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
   z-index: 1;
 }
 
@@ -150,7 +150,7 @@
 }
 
 .animated-button {
-  animation: animate-button 0.3s ease-in-out;
+  animation: animate-button 0.5s ease-in-out;
   animation-delay: 0.7s;
 }
 
