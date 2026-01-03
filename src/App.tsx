@@ -13,7 +13,7 @@ import bird from "./assets/bird.svg";
 
 function App() {
   return (
-    <main className="flex relative overflow-y-hidden min-h-screen  overflow-x-hidden flex-col font-open-sans pt-10 items-center">
+    <main className="flex relative min-h-screen overflow-x-hidden flex-col font-open-sans pt-10 items-center">
       <img
         src={bird}
         alt="Bird"
@@ -82,7 +82,7 @@ function App() {
           </button>
         </div>
       </section>
-      <p className="absolute flex flex-col items-center justify-center font-medium bottom-10 md:bottom-30 text-neutral-900 text-lg">
+      <p className="flex flex-col md:mt-48.5 mt-10 3xl:mt-168.5 items-center justify-center font-medium bottom-10 md:bottom-30 text-neutral-900 text-lg">
         Scroll to learn more <img src={arrow} alt="Arrow down" />
       </p>
       <div
